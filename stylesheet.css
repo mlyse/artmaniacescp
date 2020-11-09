@@ -1,0 +1,194 @@
+/* style.css */
+body {
+  background-color: rgb(255,255,255);
+  color: rgb(20, 20, 20);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+}
+h1, h2, h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+.titre-asso{
+  font-family: 'Bebas neue', cursive;
+  font-size: 32px;
+  letter-spacing: 1px;
+}
+
+.bg-black{
+  background-color: black;
+  color: rgb(255,255,255);
+}
+
+/* NAVIGATION */
+
+nav.navbar.shrink {
+  background: rgba(0, 0, 0, 0.85);
+}
+nav.navbar{
+  background-color:transparent;
+   -webkit-transition: background 0.5s ease;
+   transition: all 0.5s ease;
+}
+
+/* HEADER */
+
+.header{
+  display: table;
+  width: 100%;
+  height: auto;
+  background-color: black;
+  padding: 5rem;
+}
+
+.header h1{
+  font-family: 'Bebas neue', cursive;
+  font-size: 50px;
+  color: rgb(255,255,255);
+  letter-spacing: 5px;
+}
+
+.header h2{
+  font-size: 18px;
+  color: rgb(255,255,255);
+}
+
+@media (min-width: 576px) {
+  #accueil {
+    height: 100%;
+    background: url(image/home.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black;
+  }
+  .header h1{
+    font-size: 100px;
+  }
+  .header h2{
+    font-size: 24px;
+  }
+}
+
+
+/* PAGE HEADER */
+
+.page-header{
+  display: table;
+  width: 100%;
+  height: auto;
+  background-color: black;
+  padding: 5rem 5rem 10rem 5rem;
+}
+
+.page-header h1{
+  font-family: 'Bebas neue', cursive;
+  font-size: 32px;
+  color: rgb(255,255,255);
+  letter-spacing: 5px;
+}
+
+.page-header h2{
+  font-size: 24px;
+  color: rgb(255,255,255);
+  font-weight: lighter;
+}
+
+@media (min-width: 576px) {
+  .page-header h1{
+    font-size: 64px;
+  }
+  .page-header h2{
+    font-size: 36px;
+  }
+}
+
+.btn-circle{
+    font-size: 26px;
+    font-weight: thin;
+    width: 55px;
+    height: 55px;
+    margin-top: 15px;
+    line-height: 45px;
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background 0.3s ease-in-out;
+    color: white;
+    border: 2px solid white;
+    border-radius: 100%;
+    background: transparent;
+}
+
+.btn-circle:hover{
+  color: #e2e6ea;
+}
+
+/* CONTENT-SECTION */
+
+.content-section{
+  margin: 2rem, 0rem;
+}
+.content-section h1{
+  font-family: 'Bebas neue', cursive;
+  letter-spacing: 0.5rem;
+}
+@media (max-width: 576px) {
+  .content-section h1{
+    font-size: 2rem;
+  }
+  .content-section h2{
+    font-size: 1.5rem;
+  }
+  .content-section h3{
+    font-size: 1.25rem;
+  }
+}
+
+/* CAROUSEL */
+
+@media (min-width: 960px) {
+  #carouselAM{
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+
+.carousel-item img{
+  width: 100%;
+  height:auto;
+}
+
+/* WHITE-CARD */
+
+.white-card {
+  background-color: white;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  margin: 2rem;
+}
+.white-card img {
+  margin: 20px;
+  width: 50%;
+  height:auto;
+}
+
+.white-card p {
+  padding:1rem;
+}
+
+
+.footer{
+  background-color: rgb(240, 240, 240);
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li {
+  display: inline;
+  padding: 0px 8px;
+}
