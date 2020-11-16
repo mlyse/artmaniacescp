@@ -78,8 +78,8 @@ nav.navbar{
 /* OTHER PAGES HEADER */
 
 .asso-bg{
-  padding: 5rem;
-  padding-top: 7rem;
+  padding: 3rem;
+  padding-top: 5rem;
   align-items:center;
 }
 
@@ -227,8 +227,11 @@ nav.navbar{
   padding:1rem;
 }
 
-.white-card p {
-  padding:1rem;
+
+.white-card h4{
+  margin:1rem;
+  font-size: 1.3rem;
+  font-weight: bold;
 }
 
 .footer{
