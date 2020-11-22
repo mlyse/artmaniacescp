@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1366" height="768" viewBox="0 0 1366 768">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #cccccf;
+        opacity: 0.49;
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="682.5" y1="209.813" x2="682.5" y2="-6" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#bdbcbc"/>
+      <stop offset="0.99"/>
+      <stop offset="1"/>
+    </linearGradient>
+  </defs>
+  <g id="Plan_de_travail_1" data-name="Plan de travail 1">
+    <path id="Forme_2" data-name="Forme 2" class="cls-1" d="M1366,4c-8.12,64.563-30.04,115.42-71,143-68.43,46.074-188.66-8.723-258-5-109.246,5.866-166.944,81.548-283,62-89.087-15-161.556-91.067-198-110C341.106-17.639,62.966,94.354,61,85c-0.217-1.032,3.257-2.446,3-3-0.894-1.927-42.693,15.681-60,23V1Z"/>
+    <path id="Forme_1" data-name="Forme 1" class="cls-2" d="M1366-5c-44.7,74.143-101.74,132.271-173,169-187.84,96.81-448.7,24.847-656-74C461.661,54.077,325.937-19.6,191,21,156.435,31.4,119.78,49.835,90,69A439.3,439.3,0,0,0-1,147Q0,70.5,1-6C336.938-4.817,671.565-4.327,1007.5-4.525Q1186.84-4.631,1366-5Z"/>
+  </g>
+</svg>

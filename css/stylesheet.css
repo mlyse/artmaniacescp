@@ -78,8 +78,7 @@ nav.navbar{
 /* OTHER PAGES HEADER */
 
 .asso-bg{
-  padding: 3rem;
-  padding-top: 5rem;
+  padding: 5rem 3rem;
   align-items:center;
 }
 
@@ -128,6 +127,36 @@ nav.navbar{
   width: 60%;
   height: auto;
   }
+
+.number-curves{
+  background: url(../image/bg_curves/index_number_curves.svg);
+  background-repeat:no-repeat;
+  background-position: bottom center;
+  background-size: 105%, 105%, contain;
+  padding-bottom: 10%;
+}
+
+.asso-curves{
+  background: url(../image/bg_curves/index_asso_curves.svg), url(../image/bg_curves/index_spectacle_bot_curves.svg);
+  background-repeat:no-repeat;
+  background-position: right top, center bottom;
+  background-size: 105%, 105%, contain;
+  padding-top: 10%;
+}
+
+.troupe-curves{
+  background: url(../image/bg_curves/asso_troupe_curves.svg);
+  background-repeat:no-repeat;
+  background-position: right top;
+  background-size: 105%, 105%, contain;
+}
+
+.lateral-right-curves{
+  background: url(../image/bg_curves/right_side_curves.svg);
+  background-repeat:no-repeat;
+  background-position: right center;
+  background-size: 105%, 105%, contain;
+}
 
 /* RESPONSIVE MOBILE*/
 @media (min-width: 768px) {
@@ -201,12 +230,11 @@ nav.navbar{
 
 /* CAROUSEL*/
 
-@media (min-width: 960px) {
+@media (min-width: 992px) {
   #carouselAM{
     width: 70%;
     margin: 0 auto;
   }
-
 }
 
 .carousel-item img{

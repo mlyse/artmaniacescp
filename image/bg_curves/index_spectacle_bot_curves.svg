@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1366" height="768" viewBox="0 0 1366 768">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #bdbcbc;
+        opacity: 0.5;
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="683.5" y1="770" x2="683.5" y2="617" gradientUnits="userSpaceOnUse">
+      <stop offset="0"/>
+      <stop offset="1" stop-color="#bdbcbc"/>
+    </linearGradient>
+  </defs>
+  <g id="Plan_de_travail_1" data-name="Plan de travail 1">
+    <path id="spectacles_curves_copie" data-name="spectacles_curves copie" class="cls-1" d="M0,767a746.074,746.074,0,0,1,151-56c189.081-47.587,474.867,12.962,520,14,91.34,2.1,152.384-17.671,243-6,76.45,9.846,120.82,26.513,192,9,44.1-10.852,94.44-44.374,160-50a286.023,286.023,0,0,1,102,10l-3,80c-335.94-1.183-670.565-1.674-1006.5-1.475Q179.164,766.632,0,767Z"/>
+    <path id="spectacles_curves" class="cls-2" d="M0,769c91.646-15.693,183.421-30.983,276-46,205.517-33.336,392.524-62.433,496-37,108.517,26.672,202.7,77.353,341,62,66.21-7.35,118.97-26.31,163-53a370.719,370.719,0,0,0,91-78q-1.005,76.5-2,153c-335.94-1.183-670.565-1.674-1006.5-1.475Q179.164,768.632,0,769Z"/>
+  </g>
+</svg>
