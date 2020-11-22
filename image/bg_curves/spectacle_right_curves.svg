@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="815" height="1366" viewBox="0 0 815 1366">
+  <defs>
+    <style>
+      .cls-1 {
+        fill-rule: evenodd;
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="220.375" y1="1138.514" x2="999" y2="210.585" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#NaNNaNNaN"/>
+      <stop offset="1" stop-color="#bdbcbc"/>
+    </linearGradient>
+  </defs>
+  <g id="Plan_de_travail_1" data-name="Plan de travail 1">
+    <path id="spectacles_curves_copie_2" data-name="spectacles_curves copie 2" class="cls-1" d="M998,1290q-34,13.995-68,28c-326.216,96.75-614.062-32.52-689-225.91-64.535-166.543,32.593-370.273,151-485.572C501.634,499.762,652.465,448.41,767,391.3c37.2-18.549,104.965-55.251,162-165.414,33.325-64.367,56.3-141.756,70-227.667Q998.5,644.11,998,1290Z" transform="translate(-183)"/>
+  </g>
+</svg>

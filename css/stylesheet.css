@@ -177,6 +177,13 @@ nav.navbar{
   padding-top: 17%;
 }
 
+.spectacle-curves{
+  background: url(../image/bg_curves/spectacle_right_curves.svg), url(../image/bg_curves/spectacle_left_curves.svg);
+  background-repeat:no-repeat;
+  background-position: right top 75%, left top 10%;
+  background-size: 50%, 50%;
+}
+
 /* RESPONSIVE MOBILE*/
 @media (min-width: 768px) {
   .asso-bg{
@@ -221,6 +228,10 @@ nav.navbar{
   }
   .content-section h3{
     font-size: 1.25rem;
+  }
+
+  .spectacle-curves{
+    background-size: 100%, 100%;
   }
 }
 
@@ -277,17 +288,7 @@ nav.navbar{
 
 
 .footer{
-  padding-top: 0.5rem;
-  font-style: italic;
+  padding-top: 3rem;
   background-color: rgb(100,100,100);
-}
-
-
-.list-inline {
-  list-style: none;
-  padding-left: 0px;
-}
-.list-inline li {
-  display: inline;
-  padding: 8px;
+  text-align: center;
 }
