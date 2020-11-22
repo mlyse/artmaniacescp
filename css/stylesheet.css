@@ -119,14 +119,22 @@ nav.navbar{
   align-items: center;
 }
 
-.homepad{
-  padding:1rem;
+.content-section h4{
+  margin-top:1rem;
+  font-size: 1.3rem;
+  font-weight: bold;
 }
 
 .content-section .petit img{
   width: 60%;
   height: auto;
   }
+
+.homepad{
+  padding:1rem;
+}
+
+/* BACKGROUND CURVES */
 
 .number-curves{
   background: url(../image/bg_curves/index_number_curves.svg);
@@ -145,17 +153,28 @@ nav.navbar{
 }
 
 .troupe-curves{
-  background: url(../image/bg_curves/asso_troupe_curves.svg);
+  background: url(../image/bg_curves/asso_troupe_curves.svg), url(../image/bg_curves/index_spectacle_bot_curves.svg);
   background-repeat:no-repeat;
-  background-position: right top;
+  background-position: right top, center bottom;
   background-size: 105%, 105%, contain;
+  padding-bottom: 10%;
 }
 
-.lateral-right-curves{
-  background: url(../image/bg_curves/right_side_curves.svg);
+.ms-curves{
+  background: url(../image/bg_curves/asso_ms_curves.svg), url(../image/bg_curves/index_spectacle_bot_curves.svg);
   background-repeat:no-repeat;
-  background-position: right center;
+  background-position: top center, bottom center;
   background-size: 105%, 105%, contain;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.spectacle-passage-curves{
+  background: url(../image/bg_curves/spectacle_passage_curves.svg);
+  background-repeat:no-repeat;
+  background-position: top center;
+  background-size: 105%, 105%, contain;
+  padding-top: 17%;
 }
 
 /* RESPONSIVE MOBILE*/
@@ -253,18 +272,14 @@ nav.navbar{
   box-shadow: 0 4px 6px rgba(50,50,93,.11);
   margin: 1rem;
   padding:1rem;
+  color: rgb(20,20,20);
 }
 
-
-.white-card h4{
-  margin-top:1rem;
-  font-size: 1.3rem;
-  font-weight: bold;
-}
 
 .footer{
   padding-top: 0.5rem;
   font-style: italic;
+  background-color: rgb(100,100,100);
 }
 
 
@@ -274,5 +289,5 @@ nav.navbar{
 }
 .list-inline li {
   display: inline;
-  padding: 0px 8px;
+  padding: 8px;
 }
