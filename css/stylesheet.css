@@ -87,6 +87,13 @@ nav.navbar{
     padding: 7rem;
 }
 
+#header_anciens {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    padding-top: 5rem;
+  }
+
 .page-header{
 
   width: 100%;
@@ -190,13 +197,22 @@ nav.navbar{
     text-align: left;
   }
   .spectacle-bg{
-      padding: 10rem 5rem 20rem 5rem;
+      padding: 7rem 0rem 17rem 0rem;
   }
   .page-header h1{
       font-size: 64px;
   }
   .page-header h2{
       font-size: 36px;
+  }
+
+  #header_anciens{
+    background-image: url(../image/header_anciens.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: bottom;
+    padding: 7rem 0rem 17rem 0rem;
   }
 }
 
