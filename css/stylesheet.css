@@ -288,7 +288,45 @@ nav.navbar{
 
 
 .footer{
-  padding-top: 3rem;
-  background-color: rgb(100,100,100);
+  padding: 1rem 3rem;
+  margin: -15px;
+  background-color: rgb(240,240,240);
   text-align: center;
+  color:rgb(20,20,20);
+  font-size: 0.8rem;
+}
+
+.footer-item{
+  display: inline-block;
+  text-align: left;
+}
+
+.footer-titre-asso{
+  font-family: 'Bebas neue', cursive;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.footer ul{
+  list-style: none;
+  margin-bottom: 0rem;
+  padding-inline-start:0rem;
+}
+
+.footer li{
+  margin-bottom: 0.2rem;
+}
+
+.footer a{
+  color:rgb(20,20,20);
+  margin: 0.5rem;
+}
+
+.footer a:hover{
+  color: red;
+  text-decoration: none;
+}
+
+#ctaFooter{
+  color:rgb(240,240,240);
 }
