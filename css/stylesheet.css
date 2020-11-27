@@ -152,7 +152,7 @@ nav.navbar{
 }
 
 .asso-curves{
-  background: url(../image/bg_curves/index_asso_curves.svg), url(../image/bg_curves/index_spectacle_bot_curves.svg);
+  background: url(../image/bg_curves/index_asso_curves.svg), url(../image/bg_curves/index_spectacle_bot_curves_2.svg);
   background-repeat:no-repeat;
   background-position: right top, center bottom;
   background-size: 105%, 105%, contain;
@@ -160,7 +160,7 @@ nav.navbar{
 }
 
 .troupe-curves{
-  background: url(../image/bg_curves/asso_troupe_curves.svg), url(../image/bg_curves/index_spectacle_bot_curves.svg);
+  background: url(../image/bg_curves/asso_troupe_curves.svg), url(../image/bg_curves/index_spectacle_bot_curves_2.svg);
   background-repeat:no-repeat;
   background-position: right top, center bottom;
   background-size: 105%, 105%, contain;
@@ -168,7 +168,7 @@ nav.navbar{
 }
 
 .ms-curves{
-  background: url(../image/bg_curves/asso_ms_curves.svg), url(../image/bg_curves/index_spectacle_bot_curves.svg);
+  background: url(../image/bg_curves/asso_ms_curves.svg), url(../image/bg_curves/index_spectacle_bot_curves_2.svg);
   background-repeat:no-repeat;
   background-position: top center, bottom center;
   background-size: 105%, 105%, contain;
@@ -248,6 +248,10 @@ nav.navbar{
 
   .spectacle-curves{
     background-size: 100%, 100%;
+  }
+
+  .asso-curves{
+    padding-top: 15%;
   }
 }
 
