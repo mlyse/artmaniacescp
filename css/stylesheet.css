@@ -29,6 +29,10 @@ div
   box-sizing: border-box;
 }
 
+svg{
+  shape-rendering: crispEdges;
+}
+
 .bg-black{
   background-color: black;
   color: rgb(255,255,255);
@@ -40,7 +44,7 @@ nav.navbar.shrink {
   background: rgba(0, 0, 0, 0.85);
 }
 nav.navbar{
-  background-color:transparent;
+  background-color:rgba(0, 0, 0, 0.85);
    -webkit-transition: background 0.5s ease;
    transition: all 0.5s ease;
 }
@@ -216,6 +220,12 @@ nav.navbar{
   }
 }
 
+@media (max-width: 768px){
+  .ms-curves{
+      padding-top: 15%;
+    }
+  }
+
 @media (min-width: 576px) {
   #accueil {
     height: 100%;
@@ -277,6 +287,10 @@ nav.navbar{
   color: #e2e6ea;
 }
 
+.btn-ancien{
+  margin: 0.5rem 2rem;
+}
+
 
 /* CAROUSEL*/
 
@@ -285,11 +299,18 @@ nav.navbar{
     width: 70%;
     margin: 0 auto;
   }
+  nav.navbar{
+  background-color:transparent;
+  }
 }
 
 .carousel-item img{
   width: 100%;
   height:auto;
+}
+
+#carouselAM{
+  padding-bottom: 10%;
 }
 
 
@@ -306,6 +327,7 @@ nav.navbar{
   color: rgb(20,20,20);
 }
 
+/* FOOTER */
 
 .footer{
   padding: 1rem 3rem;
