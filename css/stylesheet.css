@@ -343,10 +343,8 @@ nav.navbar{
 
 .footer{
   padding: 1rem 3rem;
-  margin: -15px;
-  background-color: rgb(240,240,240);
+  margin: 1rem -15px -1rem -15px;
   text-align: center;
-  color:rgb(20,20,20);
   font-size: 0.8rem;
 }
 
@@ -355,10 +353,21 @@ nav.navbar{
   text-align: left;
 }
 
+.footer-white{
+  background-color: rgb(240,240,240);
+  color:rgb(20,20,20);
+}
+
+.footer-black{
+  color:rgba(255,255,255,0.7);
+  background-color:rgb(20,20,20);
+}
+
 .footer-titre-asso{
   font-family: 'Bebas neue', cursive;
   font-size: 1.5rem;
   letter-spacing: 1px;
+  margin:0rem 0rem 0rem -3.5rem;
 }
 
 .footer ul{
@@ -371,16 +380,22 @@ nav.navbar{
   margin-bottom: 0.2rem;
 }
 
-.footer a{
-  color:rgb(20,20,20);
+.footer-white a{
+  color:rgba(58,58,58,0.7);
   margin: 0.5rem;
 }
 
-.footer a:hover{
-  color: red;
+.footer-white a:hover{
+  color:rgba(58,58,58,1);
   text-decoration: none;
 }
 
-#ctaFooter{
-  color:rgb(240,240,240);
+.footer-black a{
+  color:rgba(255,255,255,0.5);
+  margin: 0.5rem;
+}
+
+.footer-black a:hover{
+  color:rgba(255,255,255,0.7);
+  text-decoration: none;
 }
