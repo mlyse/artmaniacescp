@@ -125,7 +125,7 @@ nav.navbar{
 /* CONTENT-SECTION */
 
 .content-section{
-  padding:1rem 1.5rem;
+  padding:1rem 0rem;
   text-align: center;
   align-items: center;
 }
@@ -195,6 +195,19 @@ nav.navbar{
   background-size: 50%, 50%;
 }
 
+/* WHITE-CARD */
+
+.white-card {
+  background-color: white;
+  border-radius: 4px;
+  text-align: center;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  margin: 1rem 0.25rem;
+  padding:1rem;
+  color: rgb(20,20,20);
+}
+
 /* RESPONSIVE MOBILE*/
 @media (min-width: 768px) {
   .asso-bg{
@@ -209,6 +222,10 @@ nav.navbar{
   .page-header h2{
       font-size: 36px;
   }
+
+  .white-card{
+      margin: 1rem;
+    }
 
   #header_anciens{
     background-image: url(../image/header_anciens.jpg);
@@ -265,7 +282,7 @@ nav.navbar{
   }
 }
 
-/* BTN SCROLLER HOME*/
+/* BTN*/
 
 .btn-circle{
     font-size: 26px;
@@ -291,6 +308,14 @@ nav.navbar{
   margin: 0.5rem 2rem;
 }
 
+.btn-black{
+  color: rgb(58,58,58);
+  margin: 0.5rem;
+}
+
+.btn-black:hover{
+  color: rgb(130,130,130);
+}
 
 /* CAROUSEL*/
 
@@ -313,19 +338,6 @@ nav.navbar{
   padding-bottom: 10%;
 }
 
-
-/* WHITE-CARD */
-
-.white-card {
-  background-color: white;
-  border-radius: 4px;
-  text-align: center;
-  align-items: center;
-  box-shadow: 0 4px 6px rgba(50,50,93,.11);
-  margin: 1rem;
-  padding:1rem;
-  color: rgb(20,20,20);
-}
 
 /* FOOTER */
 

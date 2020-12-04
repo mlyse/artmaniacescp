@@ -11,7 +11,7 @@
 	<!Boostrap CSS>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	<!Fonts & icons>
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 	<!Custom CSS>
@@ -75,22 +75,25 @@
 	<div class="accordion content-section" id="accordionAncien">
 	  	<div class="row">
 	  		<div class="col">
-	    		<button type="button" class="btn btn-dark btn-ancien" data-toggle="collapse" data-target="#ArtCavernes" aria-expanded="true" aria-controls="collapseOne" id="buttonArt">L'Art des Cavernes</button>
+	    		<button type="button" class="btn btn-dark btn-ancien" data-toggle="collapse" data-target="#ArtCavernes" aria-expanded="true" aria-controls="ArtCavernes" id="buttonArt">L'Art des Cavernes</button>
 	    	</div>
 	    	<div class="col">
-	    		<button type="button" class="btn btn-dark btn-ancien" data-toggle="collapse" data-target="#PaysVV" aria-expanded="false" aria-controls="collapseTwo" id="buttonPVV">Le Pays de la Vraie Vie</button>
+	    		<button type="button" class="btn btn-dark btn-ancien" data-toggle="collapse" data-target="#PaysVV" aria-expanded="false" aria-controls="PaysVV" id="buttonPVV">Le Pays de la Vraie Vie</button>
 	    	</div>
 	    	<div class="col">
-	    		<button type="button" class="btn btn-dark btn-ancien" data-toggle="collapse" data-target="#Songe" aria-expanded="false" aria-controls="collapseThree" id="buttonSonge">Le Songe d'une Nuit d'été</button>
+	    		<button type="button" class="btn btn-dark btn-ancien" data-toggle="collapse" data-target="#Songe" aria-expanded="false" aria-controls="Songe" id="buttonSonge">Le Songe d'une Nuit d'été</button>
 	    	</div>
 	   	</div>
 
-	   	<div class="collapse show white-card" id="ArtCavernes" aria-labelledby="buttonArt" data-parent="#accordionAncien">
-	   		<div class="row">
-	   			<div class="col-lg">
+	   	<div class="collapse show" id="ArtCavernes" aria-labelledby="buttonArt" data-parent="#accordionAncien">
+	   		<div class="row white-card">
+	   			<div class="col-lg homepad">
 	   				<h1>L'Art des Cavernes</h1>
+	   				<h5 class="font-weight-light">par @lespetitesabeilles</h5>
 		   			<p>En 2018, Ronan Heuzel, Alexandre Wirth, Léo Dérumaux et Barthélémy Maupas montent une création originale: l'Art des Cavernes. Jouée deux soirs à Paris puis tout l'été au OFF du Festival d'Avignon, elle sera reprise l'année suivante pour un total de plus de 30 représentations !</p>
 					<p>Tous passés par diverses écoles et conservatoires parisiens, ces quatre anciens étudiants ont ...</p>
+					<a href="https://www.facebook.com/Lart-des-cavernes-1812884605421500" class="btn-black" target="_blank"><i class="fab fa-facebook fa-3x"></i></a><br>
+					<a class="btn btn-dark btn-md my-4" href="https://www.billetreduc.com/229500/evt.htm" target="_blank" role="button">Les critiques</a>
 				</div>
 				<div class="col-lg">
 					<img src="image/anciens/art_des_cavernes.jpg" class="img-fluid rounded" alt="Affiche Art des Cavernes">
@@ -98,12 +101,14 @@
 	   		</div>
 		</div>
 
-		<div class="collapse white-card" id="PaysVV" aria-labelledby="buttonPVV" data-parent="#accordionAncien">
-			<div class="row">
-				<div class="col-lg">
+		<div class="collapse" id="PaysVV" aria-labelledby="buttonPVV" data-parent="#accordionAncien">
+			<div class="row white-card">
+				<div class="col-lg homepad">
 					<h1>Le Pays de la Vraie Vie</h1>
 					<p>Née de l'envie de plusieurs anciens comédiens de l'association de remonter sur les planches, le Pays de la Vraie Vie, du nom de la première pièce montée par la troupe joue deux pièces par an sous la direction de la talentueuse Aurore Serra.</p>
 					<p>Le Pays de la Vraie Vie est d'abord une revisite du Pinnochio de Joël Pommerat. L'alchimie dans la troupe et le plaisir de rejouer la mènera à interprèter ensuite Richard III de Shakespeare, les Noces de Sang d'après Frederico Garcia Lorca en décembre 2019 et à préparer actuellement Le Moche de ...</p>
+					<a href="https://www.facebook.com/lepaysdelavraievie" class="btn-black"target="_blank"><i class="fab fa-facebook fa-3x"></i></a>
+					<a href="https://instagram.com/lepaysdelavraievie?igshid=ew58u0ujii4y" class="btn-black"target="_blank"><i class="fab fa-instagram fa-3x"></i></a>
 				</div>
 				<div class="col-lg">
 					<img src="image/anciens/pays_vv.png" class="img-fluid rounded" alt="Logo Pays de la Vraie vie">
@@ -111,9 +116,9 @@
 			</div>
 		</div>
 
-		<div class="collapse white-card" id="Songe" aria-labelledby="buttonSonge" data-parent="#accordionAncien">
-			<div class="row">
-				<div class="col-lg">
+		<div class="collapse" id="Songe" aria-labelledby="buttonSonge" data-parent="#accordionAncien">
+			<div class="row white-card">
+				<div class="col-lg homepad">
 					<h1>Le Songe d'une Nuit d'Eté</h1>
 					<p>Après avoir assisté Ronan Heuzel à la mise en scène du Bal des Voleurs en 2018 et cosigné celle du Conte d'Hiver l'année suivante, Théo Riera se lance individuellement à la fin de l'été 2019. Entouré d'une troupe d'ancien mais avant tout d'amis il porte le Songe d'une Nuit d'Eté à la Comédie de Paris en Janvier 2020.</p>
 					<p>La mise en scène colorée et musicale dépoussière Shakespeare et prouve si c'est encore nécessaire que les classiques sont intemporels. Avec plus de 450 spectateurs en trois soirées, le succès est au rendez-vous et fait germer l'idée de représentations à Avignon à l'été 2021.</p>
